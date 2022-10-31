@@ -5,17 +5,22 @@
 
 ## Scripts
 
-Create and activate env and install dependencies.
+### Create and activate env.
 
 ```bash
 python -m venv venv              # create env
 . venv/bin/activate              # activate env
+```
+
+### Install dependencies.
+
+```bash
 pip install -r requirements.txt  # install dependencies
 ```
 
-Run application.
+### Run application.
 
 ```bash
 . venv/bin/activate  # activate env
-python setup.py      # run application
+flask --debug run    # run application
 ```
