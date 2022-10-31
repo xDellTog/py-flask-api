@@ -5,20 +5,21 @@
 
 ## Scripts
 
-### Create and activate env.
+### Create and activate env
 
 ```bash
-python -m venv venv              # create env
-. venv/bin/activate              # activate env
+python -m venv venv  # create env
+. venv/bin/activate  # activate env
 ```
 
-### Install dependencies.
+### Install dependencies
 
 ```bash
+. venv/bin/activate              # activate env
 pip install -r requirements.txt  # install dependencies
 ```
 
-### Run application.
+### Run application
 
 ```bash
 . venv/bin/activate  # activate env
